@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main
+{
+    background-color: #71ca76;;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 74px;
+    margin-left: 92px;
+}
+textarea
+{
+    width:fit-content;
+    height:50px;
+}
+form
+{
+margin-left: 56px;
+margin-top: 27px;
+width: fit-content;
+}
+h3
+{
+text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form>
+            <h3>Application Form</h3>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter First Name"/><br/><br/>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Lasst Name"/><br/><br/>
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender"/>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender"/>
+            <label for="female">Female</label><br/><br/>
+            <label for="bday">Birthday</label>
+            <input type="date" id="date" name="birthday"/><br/><br/>
+
+            <label for="religion">Religion</label>
+            <select>
+                <option>Hindu</option>
+                <option>Muslim</option>
+                <option>Christian</option>
+                <option>Jain</option>
+                <option>Buddist</option>
+
+            </select><br/><br/>
+            <label for="email">Email Id</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email"/><br/><br/>
+            <label>Languages Known</label>
+            <input type="checkbox" id="tamil" name="tamil"/>
+            <label for="tamil">Tamil</label>
+            <input type="checkbox" id="english" name="english"/>
+            <label for="english">English</label>
+            <input type="checkbox" id="hindi" name="Hindi"/>
+            <label for="hindi">Hindi</label><br/><br/>
+            <label>Address</label>
+            <textarea></textarea><br/><br/>
+            <input type="submit" value="submit"/>
+            <input type="reset" value="Reset"/>
+
+
+            
+
+
+        </form>
+    </div>
+</body>
+</html>
